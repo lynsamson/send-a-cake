@@ -4,11 +4,13 @@ import {FormControl} from "@angular/forms";
 import { } from 'googlemaps';
 import { MapsAPILoader } from '@agm/core';
 
+declare var google;
 
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
 })
+
 export class HomePage {
     public latitude: number;
     public longitude: number;
